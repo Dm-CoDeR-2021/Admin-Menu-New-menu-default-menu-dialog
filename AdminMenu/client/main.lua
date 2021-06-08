@@ -331,7 +331,7 @@ function OpenPlayerOnMenu()
 		local elements = {}
 		for i=1, #pl, 1 do
 		table.insert(elements, {
-			label = '[' .. pl[i].source .. ']' .. _U('fasele') .. GetPlayerName(PlayerId(pl[i].source)) .. _U('fasele') .. '(' .. pl[i].name .. ')',
+			label = '[' .. pl[i].source .. ']' .. _U('fasele') .. '(' .. pl[i].name .. ')',
 			value = pl[i].source,
 			name = pl[i].name,
 			identifier = pl[i].identifier,
